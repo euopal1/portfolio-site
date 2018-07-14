@@ -17,4 +17,4 @@ A web page that is replicated for the project requirement.
 
 I have learned a lot by working on this project. I wil update this site from time to time. Do hope you enjoy going through it.
 
-### Visit: 
+### Visit: https://github.com/euopal1/portfolio-site.git
