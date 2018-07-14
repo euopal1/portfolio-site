@@ -1,4 +1,4 @@
-#Eunan Oparaocha's Portfolio
+# Eunan Oparaocha's Portfolio
 
 **Summary**
 
@@ -17,4 +17,4 @@ _CSS_
 
 I have learned a lot by working on this project. I wil update this site from time to time. Do hope you enjoy going through it.
 
-Visit: 
+### Visit: 
