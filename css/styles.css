@@ -1,0 +1,145 @@
+/*GENERAL stylesheet
+========================================================================== */
+body {
+	padding: 20px 0;
+	font-family: 'Lato', sans-serif;
+	color: #494A4A;
+}
+
+/*TEXT STYLES
+========================================================================== */
+.text-thin {
+	font-weight: 400;
+}
+
+.text-secondtitle {
+	color: #494A4A;
+	font-weight:400;
+	font-size: 38px;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.text-link {
+	color: #ff0000;
+	font-size: 20px;
+	padding: 0.5em;
+	font-weight: 300;
+}
+
+
+.title-super {
+	font-size: 60px
+
+}
+
+.description-project {
+	font-size: 34px;
+	font-weight: 400;
+	color: #2471A3  ;
+}
+
+.subtitle {
+	font-weight: 300;
+	font-size: 22px;
+}
+
+/*IMAGE STYLES
+========================================================================== */
+.title-logo {
+	margin-top: 1.5em;
+}
+
+/*STYLES FOR OTHER ELEMENTS
+========================================================================== */
+
+hr {
+ border-top: 4px solid #BCBBBB;
+}
+
+/*VIEWPORT AND DIMENSIONS
+========================================================================== */
+
+@media only screen and (max-width: 992px) {
+  .profile {
+    text-align: center;
+  }
+
+  .title-logo {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+/*SMALL DEVICES, TABLETS LANDSCAPE
+========================================================================== */
+
+@media only screen and (max-width: 768px) {
+  .profile {
+    text-align: center;
+  }
+
+  .title-logo {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+/* SMALL DEVICES, TABLETS PORTRAIT
+   ========================================================================== */
+
+@media only screen and (max-width: 600px) {
+  .profile {
+    text-align: center;
+  }
+
+  .title-logo {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .title-super {
+    font-size: 2.857em;
+  }
+}
+
+/* EXTRA SMALL DEVICES, PHONES
+   ========================================================================== */
+
+@media only screen and (max-width: 480px) {
+  .profile {
+    text-align: center;
+  }
+
+  .title-logo {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .title-super {
+    font-size: 2.857em;
+  }
+}
+
+/* CUSTOM, IPHONE RETINA
+   ========================================================================== */
+
+@media only screen and (max-width: 360px) {
+  .profile {
+    text-align: center;
+  }
+
+  .title-logo {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .title-super {
+    font-size: 2.857em;
+  }
+}
