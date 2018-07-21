@@ -1,7 +1,8 @@
 /*GENERAL stylesheet
 ========================================================================== */
 body {
-	padding: 20px 0;
+	width: 100%;
+	padding: 20px 20px;
 	font-family: 'Lato', sans-serif;
 	color: #494A4A;
 }
@@ -9,10 +10,14 @@ body {
 /*TEXT STYLES
 ========================================================================== */
 .text-thin {
+	width: 100%;
 	font-weight: 400;
 }
-
+.paragraph{
+	width: 100%;
+}
 .text-secondtitle {
+	width: 100%;
 	color: #494A4A;
 	font-weight:400;
 	font-size: 38px;
@@ -21,6 +26,7 @@ body {
 }
 
 .text-link {
+	width: 100%;
 	color: #ff0000;
 	font-size: 20px;
 	padding: 0.5em;
@@ -53,20 +59,20 @@ body {
 /*STYLES FOR OTHER ELEMENTS
 ========================================================================== */
 
-hr {
+.hr {
  border-top: 4px solid #BCBBBB;
 }
 
 /*VIEWPORT AND DIMENSIONS
 ========================================================================== */
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 960px) {
   .profile {
     text-align: center;
   }
 
   .title-logo {
-    display: block;
+	  display: block;
     margin-right: auto;
     margin-left: auto;
   }
@@ -75,7 +81,7 @@ hr {
 /*SMALL DEVICES, TABLETS LANDSCAPE
 ========================================================================== */
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 740px) {
   .profile {
     text-align: center;
   }
@@ -90,7 +96,7 @@ hr {
 /* SMALL DEVICES, TABLETS PORTRAIT
    ========================================================================== */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 500px) {
   .profile {
     text-align: center;
   }
@@ -109,7 +115,7 @@ hr {
 /* EXTRA SMALL DEVICES, PHONES
    ========================================================================== */
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 420px) {
   .profile {
     text-align: center;
   }
@@ -128,7 +134,7 @@ hr {
 /* CUSTOM, IPHONE RETINA
    ========================================================================== */
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 340px) {
   .profile {
     text-align: center;
   }
